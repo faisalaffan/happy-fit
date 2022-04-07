@@ -15,3 +15,10 @@ npm install
 npm run start #running different terminal
 npm run android #running different terminal
 ```
+
+How To Build
+```
+cd ./android
+./gradlew clean
+./gradlew assembleRelease
+```
